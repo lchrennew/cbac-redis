@@ -1,6 +1,6 @@
 import * as keys from './redis-keys.js'
 import { redis } from "../utils/redis.js";
-import { generateObjectID } from "../utils/oid.js";
+import { generateObjectID } from "es-object-id";
 
 export const getClaimSha256sByAliases = (...aliases) => redis.hmget(keys.validatorAliases(), ...aliases)
 export const existsAlias = alias => redis.hexists(keys.validatorAliases(), alias)

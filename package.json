@@ -5,6 +5,7 @@
   "author": "Li Chun",
   "license": "MIT",
   "dependencies": {
-    "es-ioredis-url": "^1.0.3"
+    "es-ioredis-url": "^1.0.3",
+    "es-object-id": "^1.0.0"
   }
 }
