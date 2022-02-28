@@ -1,0 +1,10 @@
+{
+  "name": "cbac-redis",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Li Chun",
+  "license": "MIT",
+  "dependencies": {
+    "es-ioredis-url": "^1.0.3"
+  }
+}
